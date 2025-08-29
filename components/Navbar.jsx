@@ -14,7 +14,7 @@ const Navbar = () => {
             alt="Albani Fashion Logo"
           />
         </Link>
-        <form className="w-full max-w-[800px] flex items-center gap-x-4">
+        <form className="w-full max-w-[700px] flex items-center gap-x-4">
           <input
             type="text"
             placeholder="Search for products..."
