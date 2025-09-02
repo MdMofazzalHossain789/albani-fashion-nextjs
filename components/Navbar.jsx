@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Searchbar from "./Searchbar";
+import { ShoppingCart } from "lucide-react";
+import Badge from "./Badge";
 
 const Navbar = () => {
   return (
@@ -14,15 +17,15 @@ const Navbar = () => {
             alt="Albani Fashion Logo"
           />
         </Link>
-        <form className="w-full max-w-[700px] flex items-center gap-x-4">
-          <input
-            type="text"
-            placeholder="Search for products..."
-            className="w-full outline-0 ring-0 border-2 px-4 py-2 rounded-md"
-          />
-        </form>
-        <div>
+        <Searchbar />
+        <div className="flex items-center gap-x-4 md:gap-x-10">
           <div className="w-10 h-10 rounded-full bg-gray-500"></div>
+          <div className="relative">
+            <div className="absolute -top-4 -right-4">
+              <Badge />
+            </div>
+            <ShoppingCart />
+          </div>
         </div>
       </div>
     </nav>
