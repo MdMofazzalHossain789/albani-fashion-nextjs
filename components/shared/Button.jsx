@@ -1,17 +1,32 @@
 import { cn } from "@/utils/cn";
+import Link from "next/link";
 
-const Button = ({ children, className, onClick, ...others }) => {
+const getVariantClasses = (variantName) => {
+  switch (variantName) {
+    case "primary":
+      return "bg-black text-white active:bg-black/50 hover:bg-black/90";
+    case "secondary":
+      return "text-black border-1 border-black/30";
+    case "outline":
+      return "text-black border-1 border-black/30 active:bg-black/20 active:border-black/20 hover:bg-black/5";
+
+    default:
+      return "active:bg-black/20 active:border-black/20 hover:bg-black/5";
+  }
+};
+
+const Button = ({ variant, children, className, onClick, href, ...others }) => {
+  const Component = href ? Link : "button";
+  const classes = cn(
+    "rounded-full p-4 transition duration-200 cursor-pointer",
+    getVariantClasses(variant),
+    className
+  );
+
   return (
-    <button
-      className={cn(
-        "p-4 rounded-full active:bg-black/20 active:border-black/20 hover:bg-black/5 transition duration-300 cursor-pointer",
-        className
-      )}
-      onClick={onClick}
-      {...others}
-    >
+    <Component href={href} className={classes} onClick={onClick} {...others}>
       {children}
-    </button>
+    </Component>
   );
 };
 
