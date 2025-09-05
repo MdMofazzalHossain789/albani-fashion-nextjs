@@ -4,7 +4,6 @@ import Link from "next/link";
 import SearchInput from "../searchbar/SearchInput";
 import MainSection from "../shared/MainSection";
 import ShoppingCart from "./ShoppingCart";
-import { SearchIcon } from "lucide-react";
 import MobileSearchbar from "../searchbar/MobileSearchbar";
 import Button from "../shared/Button";
 
