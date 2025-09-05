@@ -1,11 +1,11 @@
-import Divider from "@/components/Divider";
-import Hero from "@/components/Hero";
-import MainSection from "@/components/MainSection";
-import Link from "next/link";
-import React from "react";
+import MainSection from "@/components/shared/MainSection";
 
 const page = () => {
-  return <div className="w-full h-full flex flex-col gap-y-2">Home Page</div>;
+  return (
+    <div className="w-full h-full flex flex-col gap-y-2">
+      <MainSection>Home Page</MainSection>
+    </div>
+  );
 };
 
 export default page;
