@@ -57,7 +57,7 @@ const footerLinks = [
 const Footer = () => {
   return (
     <div className="bg-black text-white">
-      <MainSection className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10 px-4">
+      <MainSection className="grid grid-cols-1 md:grid-cols-2 gap-10 py-10 px-10">
         <div className="flex flex-col gap-y-4">
           <h1 className="text-lg font-semibold">Need help?</h1>
           <div>
@@ -71,7 +71,7 @@ const Footer = () => {
                   key={index}
                   className="flex items-center gap-x-4 text-sm"
                 >
-                  <h1>{item.label}:</h1>
+                  <h1 className="shrink-0">{item.label}:</h1>
                   <p className="font-semibold hover:underline active:underline">
                     {item.value}
                   </p>

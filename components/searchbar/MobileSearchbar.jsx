@@ -12,7 +12,7 @@ const MobileSearchbar = () => {
   if (showSearchModal)
     return (
       <>
-        <div className="absolute top-0 left-0 w-full h-[76px] bg-white z-50 flex items-center justify-center pr-4 border-b-1 border-black/30 gap-x-2">
+        <div className="absolute top-0 left-0 w-full h-[72px] bg-white z-50 flex items-center justify-center px-4 border-b-1 border-black/30 gap-x-2">
           <Button onClick={() => setShowSearchModal(false)}>
             <ChevronLeft />
           </Button>
