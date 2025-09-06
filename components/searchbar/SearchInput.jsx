@@ -14,6 +14,7 @@ const SearchInput = () => {
   return (
     <form onSubmit={handleSubmit} className="w-full flex items-center">
       <input
+        autoFocus
         type="text"
         placeholder="Search a product..."
         onChange={(e) => setSearchText(e.target.value)}

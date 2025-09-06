@@ -5,7 +5,7 @@ const MainSection = ({ children, className }) => {
   return (
     <div
       className={cn(
-        "max-w-[1300px] w-full h-full mx-auto flex flex-col",
+        "max-w-[1300px] w-full h-full mx-auto flex flex-col mt-[76.06px]",
         className
       )}
     >
