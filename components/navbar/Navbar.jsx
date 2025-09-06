@@ -9,7 +9,7 @@ import Button from "../shared/Button";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 w-full bg-white">
+    <div className="fixed top-0 left-0 w-full bg-white z-50">
       <div className="w-full px-4 py-2 flex items-center gap-x-4 border-b-1 border-black/30">
         <MainSection className="w-full flex flex-row items-center justify-between px-2 md:px-10 mt-0">
           <Link href={"/"}>
