@@ -1,5 +1,5 @@
 import React from "react";
-import SingleProductPage from "./SingleProductPage";
+import SingleProductPage from "../../[category]/[product-name]/SingleProductPage";
 
 const page = async ({ params }) => {
   const { slug } = await params;

@@ -14,7 +14,7 @@ const ProductCard = ({ id }) => {
       id={id}
     >
       {/* Image */}
-      <Link href={`/products/${id}`}>
+      <Link href={`/3-pcs/${id}`}>
         <div className="bg-gray-500 w-full h-[300px] rounded-t-md relative overflow-hidden">
           <Image
             src={"/product.png"}
@@ -35,7 +35,7 @@ const ProductCard = ({ id }) => {
 
       {/* Product Info */}
       <div className="px-4 py-2">
-        <Link href={`/products/${id}`}>
+        <Link href={`/3-pcs/${id}`}>
           <h1 className="text-lg font-semibold hover:underline">
             Product Name
           </h1>
