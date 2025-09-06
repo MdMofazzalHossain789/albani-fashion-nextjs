@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Button from "../shared/Button";
-import { Heart, HeartIcon } from "lucide-react";
+import { Heart } from "lucide-react";
 
 const WishlistButton = () => {
   const [wished, setWished] = useState(false);
@@ -13,7 +13,7 @@ const WishlistButton = () => {
       onClick={() => setWished((prev) => !prev)}
     >
       {wished ? (
-        <HeartIcon className="text-red-500" />
+        <Heart className="text-red-500" />
       ) : (
         <Heart className="text-white" />
       )}
