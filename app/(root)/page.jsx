@@ -4,9 +4,9 @@ import MainSection from "@/components/shared/MainSection";
 
 const page = () => {
   return (
-    <div className="w-full h-full flex flex-col gap-y-2">
+    <div className="w-full h-full flex flex-col gap-y-2 pt-[67px]">
       <Hero />
-      <MainSection>
+      <MainSection className="mt-0">
         <ProductSection title="Attar" />
         <ProductSection title="Clothing" />
         <ProductSection title="Shoe" />

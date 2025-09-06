@@ -18,7 +18,7 @@ const getVariantClasses = (variantName) => {
 const Button = ({ variant, children, className, onClick, href, ...others }) => {
   const Component = href ? Link : "button";
   const classes = cn(
-    "rounded-full p-4 transition duration-200 cursor-pointer",
+    "rounded-full p-2 sm:p-4 transition duration-200 cursor-pointer",
     getVariantClasses(variant),
     className
   );
