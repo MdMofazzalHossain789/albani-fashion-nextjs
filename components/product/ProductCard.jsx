@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
     >
       {/* Image */}
       <Link href={`/panjabi/${slug}`}>
-        <div className="bg-gray-500 w-full h-[300px] rounded-t-md relative overflow-hidden">
+        <div className="bg-gray-500 w-full min-h-[30vh] rounded-t-md relative overflow-hidden">
           <Image
             src={images[0]}
             fill

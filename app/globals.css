@@ -8,6 +8,10 @@ body {
   background-color: white;
 }
 
+.title {
+  @apply text-xl sm:text-2xl font-semibold uppercase;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
