@@ -6,6 +6,7 @@ import MainSection from "../shared/MainSection";
 import ShoppingCart from "./ShoppingCart";
 import MobileSearchbar from "../searchbar/MobileSearchbar";
 import Button from "../shared/Button";
+import { User } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -28,7 +29,9 @@ const Navbar = () => {
 
             <ShoppingCart />
             <Button className="p-2">
-              <div className="w-8 h-8 rounded-full bg-gray-500"></div>
+              <div className="w-6 h-6 rounded-full text-black border-2 flex items-center justify-center">
+                <User />
+              </div>
             </Button>
           </div>
         </MainSection>

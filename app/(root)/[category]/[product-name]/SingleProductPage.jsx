@@ -7,11 +7,11 @@ import RelatedSection from "./RelatedSection";
 const SingleProductPage = ({ slug }) => {
   return (
     <div className="w-full h-full bg-slate-100">
-      <MainSection>
+      <MainSection className="py-1 md:py-2">
         <SitePath />
       </MainSection>
       <div className="w-full bg-white">
-        <MainSection>
+        <MainSection className="mt-0">
           <ProductDetails />
 
           <RelatedSection />

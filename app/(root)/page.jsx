@@ -7,7 +7,7 @@ const page = () => {
     <div className="w-full h-full flex flex-col gap-y-2 pt-[67px]">
       <Hero />
       <MainSection className="mt-0">
-        <ProductSection title="Attar" />
+        <ProductSection title="Panjabi" />
         <ProductSection title="Clothing" />
         <ProductSection title="Shoe" />
       </MainSection>

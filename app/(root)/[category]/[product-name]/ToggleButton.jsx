@@ -35,7 +35,7 @@ const ToggleButton = () => {
       {availableSizes.map((item, index) => (
         <Button
           variant={size === item.value ? "primary" : "outline"}
-          className="rounded-sm py-2 text-sm"
+          className="px-3 rounded-sm py-2 text-sm"
           key={index}
           onClick={() => setSize(item.value)}
         >

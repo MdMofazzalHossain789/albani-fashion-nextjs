@@ -24,7 +24,7 @@ const Quantity = () => {
       <h1 className="font-semibold">Quantity:</h1>
       <div className="flex items-center rounded-md">
         <Button
-          className="py-2 rounded-sm border-r-0 rounded-r-none"
+          className="rounded-sm border-r-0 rounded-r-none px-4"
           variant="outline"
           onClick={() => {
             if (quantity <= 1) return;
@@ -38,11 +38,11 @@ const Quantity = () => {
             type="number"
             value={quantity}
             onChange={handleChange}
-            className="w-full rounded-none border-1 border-black/30 p-2 text-center selection:bg-black selection:text-white"
+            className="w-full rounded-none border-1 border-black/30 p-2 sm:p-4 text-center selection:bg-black selection:text-white"
           />
         </form>
         <Button
-          className="py-2 border-l-0 rounded-l-none rounded-r-sm "
+          className="py-2 border-l-0 rounded-l-none rounded-r-sm px-4"
           variant="outline"
           onClick={() => setQuantity(quantity + 1)}
         >

@@ -2,6 +2,7 @@
 
 import { SearchIcon } from "lucide-react";
 import { useState } from "react";
+import Input from "../form/Input";
 
 const SearchInput = () => {
   const [searchText, setSearchText] = useState("");
@@ -13,14 +14,13 @@ const SearchInput = () => {
 
   return (
     <form onSubmit={handleSubmit} className="w-full flex items-center">
-      <input
+      <Input
         autoFocus
         type="text"
         placeholder="Search a product..."
         onChange={(e) => setSearchText(e.target.value)}
-        className="outline-none w-full border-1 px-4 py-2 rounded-l-md font-semibold selection:text-white selection:bg-black"
       />
-      <button className="px-4 py-2 border-1 border-black rounded-r-md bg-black text-white cursor-pointer">
+      <button className="px-4 py-2 border-2 border-black rounded-r-md bg-black text-white cursor-pointer">
         <SearchIcon />
       </button>
     </form>

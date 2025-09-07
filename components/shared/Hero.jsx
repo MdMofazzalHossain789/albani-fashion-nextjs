@@ -4,9 +4,9 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="w-full h-[70vh] bg-gray-500 relative">
-      <Image
-        src={"/hero.png"}
-        fill={true}
+      <img
+        src={"/image.png"}
+        // fill={true}
         alt="hero image"
         className="w-full h-full object-cover"
       />
