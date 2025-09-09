@@ -3,7 +3,7 @@ import Button from "@/components/shared/Button";
 import { ArrowRight, Cross, X } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
-import Quantity from "../../[category]/[product-name]/Quantity";
+import Quantity from "../../[category]/[productSlug]/Quantity";
 
 const ProductCart = () => {
   const [quantity, setQuantity] = useState(1);

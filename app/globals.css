@@ -12,6 +12,9 @@ body {
   @apply text-xl sm:text-2xl font-semibold uppercase;
 }
 
+.skeleton {
+  @apply bg-gray-500 rounded-md animate-pulse;
+}
 /* Chrome, Safari, Edge, Opera */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {

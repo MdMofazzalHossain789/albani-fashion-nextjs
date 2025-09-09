@@ -3,7 +3,7 @@ import MainSection from "@/components/shared/MainSection";
 import Seperator from "@/components/shared/Seperator";
 import React from "react";
 
-const RelatedSection = () => {
+const RelatedSection = ({ products, categorySlug }) => {
   return (
     <MainSection className="mt-4">
       <div className="px-4 py-2">
@@ -16,7 +16,7 @@ const RelatedSection = () => {
           </h1>
           <Seperator />
         </div>
-        <ProductCardList />
+        <ProductCardList products={products} categorySlug={categorySlug} />
       </div>
     </MainSection>
   );

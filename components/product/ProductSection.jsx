@@ -4,7 +4,13 @@ import Button from "../shared/Button";
 import Seperator from "../shared/Seperator";
 import { ArrowRight, MoveRight } from "lucide-react";
 
-const ProductSection = ({ title = "Section Title", showLink, fetchLink }) => {
+const ProductSection = ({
+  title = "Section Title",
+  showLink,
+  fetchLink,
+  categorySlug,
+  products = [],
+}) => {
   return (
     <div className="my-4 px-4">
       <div className="flex items-center gap-x-4 mt-6 mb-4 mx-2">
@@ -20,7 +26,7 @@ const ProductSection = ({ title = "Section Title", showLink, fetchLink }) => {
           Show All
         </Button>
       </div>
-      <ProductCardList />
+      <ProductCardList products={products} categorySlug={categorySlug} />
 
       <div className="w-full my-4 pt-2">
         <Button
