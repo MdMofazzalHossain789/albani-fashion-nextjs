@@ -9,21 +9,29 @@ const SitePath = ({ paths = [] }) => {
 
   return (
     <div className="flex items-center gap-x-4 py-2 px-4">
-      <div className="flex items-center gap-x-2 font-medium text-gray-600">
-        <Link
-          href={`/`}
-          className="hover:text-black hover:underline transition duration-300 flex items-center gap-x-4"
-        >
-          <HomeIcon className="w-5 h-5" />
-          Home
-        </Link>
-        {}
-        <p>/</p>
-      </div>
       {paths.map((item, index) => {
         const isLast = paths.length - 1 === index;
 
         const Component = isLast ? "div" : Link;
+
+        if (index === 0) {
+          return (
+            <div
+              className="flex items-center gap-x-2 font-medium text-gray-600"
+              key={index}
+            >
+              <Link
+                href={item.link}
+                className="hover:text-black hover:underline transition duration-300 flex items-center gap-x-4"
+                key={index}
+              >
+                <HomeIcon className="w-5 h-5" />
+                Home
+              </Link>
+              <p>/</p>
+            </div>
+          );
+        }
 
         return (
           <div
@@ -31,7 +39,7 @@ const SitePath = ({ paths = [] }) => {
             key={index}
           >
             <Component
-              href={isLast ? undefined : `/${item.toLowerCase()}`}
+              href={isLast ? undefined : `/${item.link.toLowerCase()}`}
               className={cn(
                 "transition duration-300 capitalize",
                 isLast
@@ -39,7 +47,7 @@ const SitePath = ({ paths = [] }) => {
                   : "hover:text-black hover:underline cursor-pointer"
               )}
             >
-              {item}
+              {item.name}
             </Component>
             {!isLast && <p>/</p>}
           </div>

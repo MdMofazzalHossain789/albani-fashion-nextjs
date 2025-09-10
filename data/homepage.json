@@ -1,0 +1,1950 @@
+{
+  "data": {
+    "flashProducts": [],
+    "featureProducts": [],
+    "bestProducts": [],
+    "comboProducts": [],
+    "categoryProducts": [
+      {
+        "_id": "67b9fc1e0e1b0ff578ed97e6",
+        "image": "public/category/HrJi_hHGUHgtkzXCuuJ.jpg",
+        "imageForHomePage": "",
+        "imageForCategoryProduct": "",
+        "name": "attar",
+        "slug": "attar",
+        "products": [
+          {
+            "_id": "68aea41be3e60979f1e4d776",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/hqTzyEwXDnhoDd_RqCo.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea41be3e60979f1e4d777",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 81,
+                "regularPrice": 2400,
+                "sellingPrice": 720,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea41be3e60979f1e4d778",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 98,
+                "regularPrice": 4800,
+                "sellingPrice": 1440,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea41be3e60979f1e4d779",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 97,
+                "regularPrice": 7200,
+                "sellingPrice": 2160,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "White Oud",
+            "slug": "white-oud-5spdzk",
+            "sku": "BS1827"
+          },
+          {
+            "_id": "68aea3d33b58b37a4901941b",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/LSUIa2wXzZuV_VZkrRt.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea3d33b58b37a4901941c",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 88,
+                "regularPrice": 4500,
+                "sellingPrice": 1350,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea3d33b58b37a4901941d",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 98,
+                "regularPrice": 9000,
+                "sellingPrice": 2700,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea3d33b58b37a4901941e",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 96,
+                "regularPrice": 13500,
+                "sellingPrice": 4050,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Shahi Oud",
+            "slug": "shahi-oud-bni9da",
+            "sku": "BS1826"
+          },
+          {
+            "_id": "68aea388011f017a3b108db4",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/UtNnIgpU-Z9aQYIvB6g.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea388011f017a3b108db5",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 88,
+                "regularPrice": 3000,
+                "sellingPrice": 900,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea388011f017a3b108db6",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 97,
+                "regularPrice": 6000,
+                "sellingPrice": 1800,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea388011f017a3b108db7",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 97,
+                "regularPrice": 9000,
+                "sellingPrice": 2700,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Royal Sapphire Thameen ",
+            "slug": "royal-sapphire-thameen-pnzh8e",
+            "sku": "BS1825"
+          },
+          {
+            "_id": "68aea33e33c69a7a5ab4f064",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/nuMZqFpTmDr6iSrp6_Y.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea33e33c69a7a5ab4f065",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 96,
+                "regularPrice": 3000,
+                "sellingPrice": 900,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea33e33c69a7a5ab4f066",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 98,
+                "regularPrice": 6000,
+                "sellingPrice": 1800,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea33e33c69a7a5ab4f067",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 98,
+                "regularPrice": 9000,
+                "sellingPrice": 2700,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Safa",
+            "slug": "safa-2njpl9",
+            "sku": "BS1824"
+          },
+          {
+            "_id": "68aea2fe415b4b7a2f898c64",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/2I8WbL96F9Zf86zJfDX.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea2fe415b4b7a2f898c65",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 95,
+                "regularPrice": 3000,
+                "sellingPrice": 900,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea2fe415b4b7a2f898c66",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 98,
+                "regularPrice": 6000,
+                "sellingPrice": 1800,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea2fe415b4b7a2f898c67",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 97,
+                "regularPrice": 9000,
+                "sellingPrice": 2700,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Red African",
+            "slug": "red-african-ikf1pl",
+            "sku": "BS1823"
+          },
+          {
+            "_id": "68aea2a3aae28879f2fa542a",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/mG2rpWoLimtPIhydIS3.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea2a3aae28879f2fa542b",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 90,
+                "regularPrice": 1800,
+                "sellingPrice": 540,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea2a3aae28879f2fa542c",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 100,
+                "regularPrice": 3600,
+                "sellingPrice": 1080,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea2a3aae28879f2fa542d",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 100,
+                "regularPrice": 5400,
+                "sellingPrice": 1620,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Rasha",
+            "slug": "rasha-nsqu12",
+            "sku": "BS1822"
+          },
+          {
+            "_id": "68aea2473b58b37a4901937c",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/mXWJSzjr6wfpKhR2qnN.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68aea2473b58b37a4901937d",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 63,
+                "regularPrice": 3000,
+                "sellingPrice": 900,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea2473b58b37a4901937e",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 95,
+                "regularPrice": 6000,
+                "sellingPrice": 1800,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68aea2473b58b37a4901937f",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 96,
+                "regularPrice": 9000,
+                "sellingPrice": 2700,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Paris Hilton",
+            "slug": "paris-hilton-htqoyw",
+            "sku": "BS1821"
+          },
+          {
+            "_id": "68ae951533c69a7a5ab4ed0b",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/LxXOJ7yrvJLvkBGDIog.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68ae951533c69a7a5ab4ed0c",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 98,
+                "regularPrice": 2400,
+                "sellingPrice": 720,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68ae951533c69a7a5ab4ed0d",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 100,
+                "regularPrice": 4800,
+                "sellingPrice": 1440,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68ae951533c69a7a5ab4ed0e",
+                "discount": { "discountType": "PERCENT", "amount": 70 },
+                "images": [],
+                "stock": 100,
+                "regularPrice": 7200,
+                "sellingPrice": 2160,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Oud Collection",
+            "slug": "oud-collection-vy22uk",
+            "sku": "BS1820"
+          }
+        ]
+      },
+      {
+        "_id": "67b9fc6a3d39cff57951641a",
+        "image": "public/category/BL9RylkLSguJ7hMw8Zh.jpg",
+        "imageForHomePage": "",
+        "imageForCategoryProduct": "",
+        "name": "panjabi",
+        "slug": "panjabi",
+        "products": [
+          {
+            "_id": "68a30a2c33c69a7a5ab2891a",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/J-hfp0FaRP8g12RyEtl.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68a30a2c33c69a7a5ab2891b",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 78,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68a30a2c33c69a7a5ab2891c",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 109,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68a30a2c33c69a7a5ab2891d",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 100,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68a30a2c33c69a7a5ab2891e",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Printed Panjabi - 502",
+            "slug": "printed-panjabi-502-q6rgyb",
+            "sku": "BS1760"
+          },
+          {
+            "_id": "68934478415b4b7a2f84c654",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/sKoSvgmy-FeuwI7rHZx.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68934478415b4b7a2f84c655",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 83,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68934478415b4b7a2f84c656",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 81,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68934478415b4b7a2f84c657",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 119,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68934478415b4b7a2f84c658",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 1890,
+                "sellingPrice": 945,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Printed Panjabi - 501",
+            "slug": "print-pnajabi-501-xe9lo1",
+            "sku": "BS1746"
+          },
+          {
+            "_id": "68932b9d011f017a3b0be779",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/7zYs03OMf6JaxYp1sg7.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "68932b9d011f017a3b0be77a",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 60,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68932b9d011f017a3b0be77b",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 101,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68932b9d011f017a3b0be77c",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 111,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "68932b9d011f017a3b0be77d",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 3,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Cotton Panjabi Olive - 804",
+            "slug": "cotton-panjabi-olive-804-cy3xkg",
+            "sku": "BS1745"
+          },
+          {
+            "_id": "6893290c415b4b7a2f84bd48",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/yZNVXnTMhof5M4Zo5O9.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6893290c415b4b7a2f84bd49",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6893290c415b4b7a2f84bd4a",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 50,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6893290c415b4b7a2f84bd4b",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 51,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6893290c415b4b7a2f84bd4c",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 5,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Cotton Panjabi Navy Blue - 803",
+            "slug": "cotton-panjabi-navy-blue-803-yqyl9a",
+            "sku": "BS1744"
+          },
+          {
+            "_id": "689327cb33c69a7a5aaff0d3",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/YiyQq976nOt2GBy_DsW.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "689327cb33c69a7a5aaff0d4",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 43,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "689327cb33c69a7a5aaff0d5",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 35,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "689327cb33c69a7a5aaff0d6",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 82,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "689327cb33c69a7a5aaff0d7",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 6,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Cotton Panjabi White - 801",
+            "slug": "cotton-panjabi-white-801-arar98",
+            "sku": "BS1743"
+          },
+          {
+            "_id": "688df99295054bea17bff7df",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/5nsRN-9zraKmzcYd352.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "688df99295054bea17bff7e0",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 44,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df99295054bea17bff7e1",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 53,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df99295054bea17bff7e2",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 77,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df99295054bea17bff7e3",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 6,
+                "regularPrice": 2320,
+                "sellingPrice": 1160,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Cotton Panjabi Brown - 802",
+            "slug": "cotton-panjabi-brown-802-m6vqgr",
+            "sku": "BS1742"
+          },
+          {
+            "_id": "688df7a0dccaebea1879688c",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/A4Sj3FALbxumS-AZR3f.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "688df7a0dccaebea1879688d",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df7a0dccaebea1879688e",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df7a0dccaebea1879688f",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df7a0dccaebea18796890",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Premium Cotton Panjabi Purple - 901",
+            "slug": "premium-cotton-panjabi-purple-901-9a7267",
+            "sku": "BS1741"
+          },
+          {
+            "_id": "688df6cc52f4a0e9f8dfb308",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/CXFq4WhlEOolUAryxpG.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "688df6cc52f4a0e9f8dfb309",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df6cc52f4a0e9f8dfb30a",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df6cc52f4a0e9f8dfb30b",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "688df6cc52f4a0e9f8dfb30c",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 2790,
+                "sellingPrice": 1395,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Premium Cotton Panjabi Cream - 902",
+            "slug": "premium-cotton-panjabi-cream-902-pbr67a",
+            "sku": "BS1740"
+          }
+        ]
+      },
+      {
+        "_id": "67b9fc9f0e1b0ff578ed97f3",
+        "image": "public/category/26Wd3XWtc3FkyEOwS5i.jpg",
+        "imageForHomePage": "",
+        "imageForCategoryProduct": "",
+        "name": "t-shirt",
+        "slug": "t-shirt",
+        "products": [
+          {
+            "_id": "6858e993a6693de531942093",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/5RbGcOc6W076VCpiR9n.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e993a6693de531942094",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e993a6693de531942095",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e993a6693de531942096",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e993a6693de531942097",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  - Motivated",
+            "slug": "sports-t-shirt-motivated-96qkum",
+            "sku": "BS0562"
+          },
+          {
+            "_id": "6858e90d078dc3e5917733d6",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/DKn0BKsgazZQDx4pYJ-.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e90d078dc3e5917733d7",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e90d078dc3e5917733d8",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e90d078dc3e5917733d9",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e90d078dc3e5917733da",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  - Revolution",
+            "slug": "sports-t-shirt-revolution-3pd4ah",
+            "sku": "BS0561"
+          },
+          {
+            "_id": "6858e8afa6693de53194204c",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/4fPUzuvea_TDYEUIUZ_.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e8afa6693de53194204d",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e8afa6693de53194204e",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e8afa6693de53194204f",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e8afa6693de531942050",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  - Believer",
+            "slug": "sports-t-shirt-believer-xokqfb",
+            "sku": "BS0560"
+          },
+          {
+            "_id": "6858e845e43614e5320a7c05",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/GGiKQhIffUuBP1OzqrU.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e845e43614e5320a7c06",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e845e43614e5320a7c07",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 1,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e845e43614e5320a7c08",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e845e43614e5320a7c09",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  - Explorer",
+            "slug": "sports-t-shirt-explorer-kxkqz4",
+            "sku": "BS0559"
+          },
+          {
+            "_id": "6858e7b9078dc3e591773354",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/qJx-DhMySUgyUoFd_zQ.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e7b9078dc3e591773355",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e7b9078dc3e591773356",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e7b9078dc3e591773357",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e7b9078dc3e591773358",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  - Musafir",
+            "slug": "sports-t-shirt-musafir-wpqqgu",
+            "sku": "BS0558"
+          },
+          {
+            "_id": "6858e660078dc3e5917732d3",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/chVhFYRcyWY8cVbHyze.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e660078dc3e5917732d4",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e660078dc3e5917732d5",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e660078dc3e5917732d6",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e660078dc3e5917732d7",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  -  Sailor",
+            "slug": "sublimation-jersey-sailor-1ipfkj",
+            "sku": "BS0557"
+          },
+          {
+            "_id": "6858e5fee43614e5320a7b73",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/zxhoqp_kQMK6-yCeX3m.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "6858e5fee43614e5320a7b74",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e5fee43614e5320a7b75",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e5fee43614e5320a7b76",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              },
+              {
+                "_id": "6858e5fee43614e5320a7b77",
+                "discount": { "discountType": "FLAT", "amount": 393 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 590,
+                "sellingPrice": 197,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Sports T-Shirt  - Follow The Sunnah",
+            "slug": "sublimation-jersey-follow-the-sunnah-y7keje",
+            "sku": "BS0556"
+          },
+          {
+            "_id": "683c3422465734d567e7668b",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/eBRS5QrMkVaIhJPaEF5.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "683c3422465734d567e7668c",
+                "discount": { "discountType": "FLAT", "amount": 0 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 450,
+                "sellingPrice": 450,
+                "flashPrice": 0
+              },
+              {
+                "_id": "683c3422465734d567e7668d",
+                "discount": { "discountType": "FLAT", "amount": 0 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 450,
+                "sellingPrice": 450,
+                "flashPrice": 0
+              },
+              {
+                "_id": "683c3422465734d567e7668e",
+                "discount": { "discountType": "FLAT", "amount": 0 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 450,
+                "sellingPrice": 450,
+                "flashPrice": 0
+              },
+              {
+                "_id": "683c3422465734d567e7668f",
+                "discount": { "discountType": "FLAT", "amount": 0 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 450,
+                "sellingPrice": 450,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Cotton T-Shirt - Believe",
+            "slug": "cotton-t-shirt-believe-h9jjdx",
+            "sku": "BS0527"
+          }
+        ]
+      },
+      {
+        "_id": "67b9fcc78d5d6df599ee1ec1",
+        "image": "public/category/xx4msjFYBcFm0QpZO4G.jpg",
+        "imageForHomePage": "",
+        "imageForCategoryProduct": "",
+        "name": "pant & trouser",
+        "slug": "pant-trouser",
+        "products": [
+          {
+            "_id": "687342dfeec9c1e545ae6446",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/VbCqn0qGM9uCZ2-MBsn.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "687342dfeec9c1e545ae6447",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "687342dfeec9c1e545ae6448",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 69,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "687342dfeec9c1e545ae6449",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 22,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "687342dfeec9c1e545ae644a",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Ottoman Trouser - 12",
+            "slug": "ottoman-trouser-12-ir9t5x",
+            "sku": "BS1733"
+          },
+          {
+            "_id": "685fd0efe43614e5320c29ba",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/mm5sbUJReEO1saS7pmg.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "685fd0efe43614e5320c29bb",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 31,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fd0efe43614e5320c29bc",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 64,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fd0efe43614e5320c29bd",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 52,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fd0efe43614e5320c29be",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "China Angle Trouser - Navy",
+            "slug": "china-angle-trouser-navy-kbqk7x",
+            "sku": "BS1676"
+          },
+          {
+            "_id": "685fd052a6693de531959b94",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/oKU_b0GUfvxyvj82ztt.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "685fd052a6693de531959b95",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fd052a6693de531959b96",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fd052a6693de531959b97",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fd052a6693de531959b98",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "China Angle Trouser - Ash",
+            "slug": "china-angle-trouser-ash-6dfqq2",
+            "sku": "BS1675"
+          },
+          {
+            "_id": "685fcfae8a5cbde571bf23a0",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/M0Mk-PzMOsSWxeG4Gjg.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "685fcfae8a5cbde571bf23a1",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 187,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fcfae8a5cbde571bf23a2",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 232,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fcfae8a5cbde571bf23a3",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 301,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685fcfae8a5cbde571bf23a4",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 40,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "China Angle Trouser - Black",
+            "slug": "china-angle-trouser-black-48boex",
+            "sku": "BS1674"
+          },
+          {
+            "_id": "685a7c3fa4de75e57755d424",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/_HX8H0WXSpKgtdozHkY.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "685a7c3fa4de75e57755d425",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 32,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685a7c3fa4de75e57755d426",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 57,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685a7c3fa4de75e57755d427",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 24,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "685a7c3fa4de75e57755d428",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Ottoman Trouser - 11",
+            "slug": "ottoman-trouser-11-lsyhxd",
+            "sku": "BS0572"
+          },
+          {
+            "_id": "681b07c815e72facbe583763",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": ["public/product/CLI1osh4-ktiEioZBPz.jpg"],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "681b07c815e72facbe583764",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b07c815e72facbe583765",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b07c815e72facbe583766",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b07c815e72facbe583767",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 790,
+                "sellingPrice": 395,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Ottoman Trouser - 10",
+            "slug": "ottoman-trouser-10-mg5pa1",
+            "sku": "BS0315"
+          },
+          {
+            "_id": "681b065da3d6e3acd2d5d9a3",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": [
+              "public/product/ctVbfQoSBT9XmgrY77d.jpg",
+              "public/product/ncQnFZJZDrG_Cb2HyOr.jpg"
+            ],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "681b065da3d6e3acd2d5d9a4",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b065da3d6e3acd2d5d9a5",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b065da3d6e3acd2d5d9a6",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b065da3d6e3acd2d5d9a7",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Twill  Pant Style Trouser - Navy",
+            "slug": "twill-pant-style-trouser-navy-hs5s81",
+            "sku": "BS0314"
+          },
+          {
+            "_id": "681b02b89024f6acf514b7eb",
+            "nonVariation": {
+              "regularPrice": 0,
+              "sellingPrice": 0,
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "flashPrice": 0,
+              "stock": 0
+            },
+            "galleryImage": [
+              "public/product/kVj0MSgisiHqIngess5.jpg",
+              "public/product/OQbAawIjUSZw15SPNBw.jpg"
+            ],
+            "isVariant": true,
+            "variations": [
+              {
+                "_id": "681b02b89024f6acf514b7ec",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 59,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b02b89024f6acf514b7ed",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 104,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b02b89024f6acf514b7ee",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 164,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              },
+              {
+                "_id": "681b02b89024f6acf514b7ef",
+                "discount": { "discountType": "PERCENT", "amount": 50 },
+                "images": [],
+                "stock": 0,
+                "regularPrice": 950,
+                "sellingPrice": 475,
+                "flashPrice": 0
+              }
+            ],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Twill  Pant Style Trouser - Light Ash",
+            "slug": "twill-pant-style-trouser-light-ash-1edidr",
+            "sku": "BS0313"
+          }
+        ]
+      },
+      {
+        "_id": "67b9fcd83d39cff579516422",
+        "image": "public/category/xunnjgmfAqd4SBXwlTS.jpg",
+        "imageForHomePage": "",
+        "imageForCategoryProduct": "",
+        "name": "natural foods",
+        "slug": "natural-foods",
+        "products": [
+          {
+            "_id": "68034d24c4916f29248ed6b5",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 290,
+              "sellingPrice": 290,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/K5tr2S5XSj-nJvaa2SF.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Isabgul Husk (ইসবগুলের ভুষি) - ১২৫ গ্রাম",
+            "slug": "isabgul-husk-vdxrj2",
+            "sku": "BS0262"
+          },
+          {
+            "_id": "680345d521e7dd28e338dde5",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 425,
+              "sellingPrice": 425,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/PopE21isXP8xJcwcujr.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Almond (কাঠবাদাম) - ২৫০ গ্রাম",
+            "slug": "almond-46kth3",
+            "sku": "BS0261"
+          },
+          {
+            "_id": "680344fa21e7dd28e338ddcb",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 150,
+              "sellingPrice": 150,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/CFffsI_ptXK8pSkGZWB.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Trifola Powder (ত্রিফলা গুড়া) - ২৫০ গ্রাম",
+            "slug": "trifola-powder-xwmsu7",
+            "sku": "BS0260"
+          },
+          {
+            "_id": "6803442790d8a728e4582da6",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 360,
+              "sellingPrice": 360,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/tfK55xPOzlLJjoFBm_l.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Ashwagandha Powder (অশ্বগন্ধা গুড়া) - ২০০ গ্রাম",
+            "slug": "ashwagandha-powder-vt78m5",
+            "sku": "BS0259"
+          },
+          {
+            "_id": "680342e51660ea2923d52251",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 375,
+              "sellingPrice": 375,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/4aq-q_P4BVAGgPkLNew.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Premium Apricot (এপ্রিকট) - ২৫০ গ্রাম",
+            "slug": "premium-apricot-2u633o",
+            "sku": "BS0258"
+          },
+          {
+            "_id": "680341c2890a8e2949dd501a",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 275,
+              "sellingPrice": 275,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/N0eBaTezhj8PSvdrZTy.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Golden Raisan (গোল্ডেন কিসমিস) - ২৫০ গ্রাম",
+            "slug": "golden-raisan-lj4lzj",
+            "sku": "BS0257"
+          },
+          {
+            "_id": "68033f7e21e7dd28e338dc9b",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 250,
+              "sellingPrice": 250,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/xARezMAxCNkqwe1p028.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Walnut (আখরোট) - ১৫০ গ্রাম",
+            "slug": "walnut-i5ykjx",
+            "sku": "BS0255"
+          },
+          {
+            "_id": "68033e95317d7e2943260bba",
+            "nonVariation": {
+              "discount": { "discountType": "FLAT", "amount": 0 },
+              "stock": 0,
+              "regularPrice": 290,
+              "sellingPrice": 290,
+              "flashPrice": 0
+            },
+            "galleryImage": ["public/product/F6ut-uGyQ7lJwYQDR6B.jpg"],
+            "isVariant": false,
+            "variations": [],
+            "isReseller": false,
+            "isFlashDeal": false,
+            "name": "Pumpkin Seed (কুমড়া বীজ) - ২৫০ গ্রাম",
+            "slug": "pumpkin-seed-s3l1ie",
+            "sku": "BS0254"
+          }
+        ]
+      }
+    ],
+    "categoryData": [
+      {
+        "image": "public/category/HrJi_hHGUHgtkzXCuuJ.jpg",
+        "_id": "67b9fc1e0e1b0ff578ed97e6",
+        "name": "attar",
+        "slug": "attar"
+      },
+      {
+        "image": "public/category/xunnjgmfAqd4SBXwlTS.jpg",
+        "_id": "67b9fcd83d39cff579516422",
+        "name": "natural foods",
+        "slug": "natural-foods"
+      },
+      {
+        "image": "public/category/BL9RylkLSguJ7hMw8Zh.jpg",
+        "_id": "67b9fc6a3d39cff57951641a",
+        "name": "panjabi",
+        "slug": "panjabi"
+      },
+      {
+        "image": "public/category/xx4msjFYBcFm0QpZO4G.jpg",
+        "_id": "67b9fcc78d5d6df599ee1ec1",
+        "name": "pant & trouser",
+        "slug": "pant-trouser"
+      },
+      {
+        "image": "public/category/7C_Ny1a6WYuYSpJI8pL.jpg",
+        "_id": "685b8a37a4de75e57755f7f9",
+        "name": "polo-shirt",
+        "slug": "polo-shirt"
+      },
+      {
+        "image": "public/category/cD0ozaELxhOuTWp-TYj.jpg",
+        "_id": "67dd840e4e84ae08d40bedac",
+        "name": "sneakers",
+        "slug": "sneakers"
+      },
+      {
+        "image": "public/category/26Wd3XWtc3FkyEOwS5i.jpg",
+        "_id": "67b9fc9f0e1b0ff578ed97f3",
+        "name": "t-shirt",
+        "slug": "t-shirt"
+      },
+      {
+        "image": "public/category/7ctekJ0vHX96XyWLMhw.jpg",
+        "_id": "67c2d25948843b82652a61a7",
+        "name": "tupi",
+        "slug": "tupi"
+      }
+    ]
+  },
+  "message": "Result from cache successfully",
+  "success": true
+}
