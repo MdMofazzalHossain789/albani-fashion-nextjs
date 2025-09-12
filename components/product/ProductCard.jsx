@@ -19,8 +19,7 @@ const ProductCard = ({ product, categorySlug }) => {
     nonVariation,
   } = product;
 
-  let sellingPrice;
-  let regularPrice;
+  let sellingPrice, regularPrice;
 
   if (isVariant) {
     sellingPrice = variations[0].sellingPrice;
@@ -30,13 +29,24 @@ const ProductCard = ({ product, categorySlug }) => {
     regularPrice = nonVariation.regularPrice;
   }
 
+  const data = {
+    id: product._id,
+    name: product.name,
+    slug: product.slug,
+    galleryImage: product.galleryImage,
+    sellingPrice: sellingPrice,
+    regularPrice: regularPrice,
+  };
+
   return (
     <div
       className="relative w-full border-1 border-black/30 rounded-md shadow-md group flex flex-col"
       id={_id}
     >
       {/* Image */}
-      <Link href={`/${categorySlug}/${slug}`}>
+      <Link
+        href={categorySlug ? `/${categorySlug}/${slug}` : `/products/${slug}`}
+      >
         <div className="bg-gray-500 w-full min-h-[30vh] rounded-t-md relative overflow-hidden">
           <Image
             src={`https://api.believerssign.com.bd/${galleryImage[0]}`}
@@ -77,8 +87,8 @@ const ProductCard = ({ product, categorySlug }) => {
         </div>
       </div>
       <div className="px-2 pt-0 sm:py-2 flex flex-col gap-y-2 mb-2 w-full">
-        <BuyNowButton />
-        <AddToCartButton />
+        <BuyNowButton data={data} />
+        <AddToCartButton data={data} />
       </div>
     </div>
   );

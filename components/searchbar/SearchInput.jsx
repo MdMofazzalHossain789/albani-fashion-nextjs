@@ -56,8 +56,14 @@ const SearchInput = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handleSearch();
-    alert(JSON.stringify(searchText));
+
+    if (!searchText) {
+      return;
+    }
+    // handleSearch();
+    // alert(JSON.stringify(searchText));
+    router.push(`/search?q=${searchText}`);
+    setIsOpen(false);
   };
 
   return (
@@ -88,7 +94,7 @@ const SearchInput = () => {
                   className="flex items-center gap-x-4 px-4 py-2 cursor-pointer hover:bg-black/10"
                   key={product._id}
                   onClick={() => {
-                    router.push(`/${categorySlug}/${product.slug}`);
+                    router.push(`/products/${product.slug}`);
                     setIsOpen(false);
                   }}
                 >

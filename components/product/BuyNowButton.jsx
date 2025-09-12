@@ -1,13 +1,21 @@
-import React from "react";
+"use client";
+import { useCart } from "@/hooks/useCart";
 import Button from "../shared/Button";
 import { ShoppingBag } from "lucide-react";
+import { useRouter } from "next/navigation";
 
-const BuyNowButton = () => {
+const BuyNowButton = ({ data }) => {
+  const router = useRouter();
+  const { addToCart } = useCart();
+
   return (
     <Button
       variant="primary"
       className="text-sm sm:text-md font-semibold w-full flex items-center justify-center !py-2 gap-x-4 rounded-sm"
-      href={`/checkout/billing-information`}
+      onClick={() => {
+        addToCart(data);
+        router.push("/checkout/billing-information");
+      }}
     >
       <ShoppingBag className="w-5 h-5 sm:w-6 sm:h-6" />
       Buy Now

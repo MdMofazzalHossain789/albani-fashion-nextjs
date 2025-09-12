@@ -3,11 +3,14 @@ import SitePath from "@/components/shared/SitePath";
 import React from "react";
 import ProductDetails from "./ProductDetails";
 import RelatedSection from "./RelatedSection";
-import Loading from "./loading";
 
 const getData = async (productSlug) => {
   const res = await fetch(
-    `https://api.believerssign.com.bd/api/v1/product/admin-customer/view-with-similar/${productSlug}?similarLimit=10`
+    `https://api.believerssign.com.bd/api/v1/product/admin-customer/view-with-similar/${productSlug}?similarLimit=10`,
+    {
+      method: "GET",
+      credentials: "include",
+    }
   );
 
   if (!res.ok) {
@@ -25,16 +28,16 @@ const SingleProductPage = async ({ category, productSlug }) => {
     <div>Not Found</div>;
   }
 
+  const pathObj = [];
+
+  pathObj.push({ name: "Home", link: `/#${data._id}` });
+  category && pathObj.push({ name: category, link: category });
+  pathObj.push({ name: data?.name, link: data?.name });
+
   return (
     <div className="w-full h-full bg-slate-100">
       <MainSection className="py-1 md:py-2">
-        <SitePath
-          paths={[
-            { name: "Home", link: `/#${data._id}` },
-            { name: category, link: category },
-            { name: data?.name, link: data?.name },
-          ]}
-        />
+        <SitePath paths={pathObj} />
       </MainSection>
       <div className="w-full bg-white">
         <MainSection className="mt-0">

@@ -6,7 +6,7 @@ const CategoryPage = ({ products, categorySlug }) => {
   return (
     <div className="w-full h-full">
       <MainSection className="px-4">
-        <h1 className="title my-4 md:my-10">
+        <h1 className="title Capitalize my-4 md:my-10">
           Products By Category: {categorySlug}
         </h1>
 

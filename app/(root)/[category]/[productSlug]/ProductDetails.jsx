@@ -1,7 +1,7 @@
 "use client";
 import Button from "@/components/shared/Button";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import ToggleButton from "./ToggleButton";
 import Quantity from "./Quantity";
 import Status from "./Status";
@@ -23,6 +23,20 @@ const ProductDetails = ({ product }) => {
     unit,
   } = product;
 
+  console.log(product);
+
+  const [price, setPrice] = useState(
+    isVariant
+      ? {
+          sellingPrice: variations[0].sellingPrice,
+          regularPrice: variations[0].regularPrice,
+        }
+      : {
+          sellingPrice: nonVariation.sellingPrice,
+          regularPrice: nonVariation.regularPrice,
+        }
+  );
+
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-6 lg:gap-x-20 gap-y-4 mt-4 px-4">
@@ -36,8 +50,10 @@ const ProductDetails = ({ product }) => {
             SKU: {sku}
           </p>
           <div className="flex items-center gap-x-4 mt-2 sm:mt-4">
-            <p className="line-through opacity-70 font-medium">1400৳</p>
-            <p className="text-xl font-semibold">750 ৳</p>
+            <p className="line-through opacity-70 font-medium">
+              {price.regularPrice} ৳
+            </p>
+            <p className="text-xl font-semibold">{price.sellingPrice} ৳</p>
           </div>
           {/* <div className="mt-2 sm:mt-4 text-gray-600">
             <ul className="list-disc ml-4">
@@ -51,10 +67,15 @@ const ProductDetails = ({ product }) => {
             <p>Fine Cotton</p>
           </div>
 
-          <Status />
-          {isVariant && <ToggleButton variations={variations} />}
+          {/* <Status /> */}
+          {/* {isVariant && <ToggleButton variations={variations} />} */}
 
-          <Quantity />
+          <Quantity
+            isVariant={isVariant}
+            variations={variations}
+            nonVariation={nonVariation}
+            setPrice={setPrice}
+          />
           <div className="flex items-center gap-x-4 my-4">
             <AddToCartButton />
             <BuyNowButton />

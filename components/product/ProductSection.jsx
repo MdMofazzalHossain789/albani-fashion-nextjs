@@ -21,7 +21,7 @@ const ProductSection = ({
         <Button
           variant="primary"
           className="text-sm sm:text-md px-4 py-2 shrink-0"
-          href={"/showLink"}
+          href={`/${categorySlug}`}
         >
           Show All
         </Button>
@@ -32,8 +32,11 @@ const ProductSection = ({
         <Button
           className="flex items-center justify-center gap-x-4 font-semibold w-full rounded-md !py-2"
           variant="outline"
+          href={`/${categorySlug}`}
         >
-          Show More {title}
+          <p>
+            Show More <span className="capitalize">{title}</span>
+          </p>
           <MoveRight />
         </Button>
       </div>

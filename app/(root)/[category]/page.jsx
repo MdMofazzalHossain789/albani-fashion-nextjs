@@ -4,7 +4,10 @@ import CategoryPage from "./CategoryPage";
 const getData = async (category) => {
   const res = await fetch(
     `
-https://api.believerssign.com.bd/api/v1/product/admin-customer/productBy-category/${category}?page=1&limit=100`
+https://api.believerssign.com.bd/api/v1/product/admin-customer/productBy-category/${category}?page=1&limit=100`,
+    {
+      credentials: "include",
+    }
   );
 
   if (!res.ok) {

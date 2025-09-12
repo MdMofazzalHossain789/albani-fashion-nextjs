@@ -11,7 +11,13 @@ const CheckoutPage = () => {
     <div className="w-full h-full pt-[72px] min-h-[70vh]">
       <div className="bg-slate-100">
         <MainSection className="!mt-0">
-          <SitePath />
+          <SitePath
+            paths={[
+              { name: "Home", link: "/" },
+              { name: "Shopping Cart", link: "checkout/shopping-cart" },
+              { name: "Billing Information" },
+            ]}
+          />
         </MainSection>
       </div>
       <MainSection className="px-6">

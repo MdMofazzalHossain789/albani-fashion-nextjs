@@ -18,7 +18,7 @@ const getVariantClasses = (variantName) => {
 const Button = ({ variant, children, className, onClick, href, ...others }) => {
   const Component = href ? Link : "button";
   const classes = cn(
-    "rounded-full p-2 sm:p-4 transition duration-200 cursor-pointer h-fit flex items-center justify-center gap-x-2 sm:gap-x-4",
+    "rounded-full p-2 sm:p-4 transition duration-200 cursor-pointer h-fit flex items-center justify-center gap-x-2 sm:gap-x-4 disabled:bg-gray-300 disabled:text-gray-500",
     getVariantClasses(variant),
     className
   );

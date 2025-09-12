@@ -6,11 +6,11 @@ import { ArrowRight } from "lucide-react";
 
 const ShoppingCartPage = () => {
   return (
-    <MainSection className="px-6">
+    <MainSection className="px-6 max-w-[700px] mx-auto">
       <CartForm />
       <Button
         variant="primary"
-        className="w-full rounded-md font-semibold my-4"
+        className="w-full rounded-md font-semibold my-4 max-w-[700px] mx-auto"
         href="/checkout/billing-information"
       >
         Continue

@@ -1,6 +1,7 @@
 import ProductSection from "@/components/product/ProductSection";
 import Hero from "@/components/shared/Hero";
 import MainSection from "@/components/shared/MainSection";
+import Loading from "./loading";
 
 // app/page.js
 async function getData() {

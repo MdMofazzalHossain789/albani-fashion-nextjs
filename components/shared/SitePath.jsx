@@ -12,7 +12,7 @@ const SitePath = ({ paths = [] }) => {
       {paths.map((item, index) => {
         const isLast = paths.length - 1 === index;
 
-        const Component = isLast ? "div" : Link;
+        const Component = isLast || !item.link ? "div" : Link;
 
         if (index === 0) {
           return (
