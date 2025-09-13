@@ -12,6 +12,7 @@ import Gallery from "./Gallery";
 
 const ProductDetails = ({ product }) => {
   const {
+    _id,
     galleryImage,
     name,
     sku,
@@ -22,8 +23,6 @@ const ProductDetails = ({ product }) => {
     description,
     unit,
   } = product;
-
-  console.log(product);
 
   const [price, setPrice] = useState(
     isVariant
@@ -77,8 +76,28 @@ const ProductDetails = ({ product }) => {
             setPrice={setPrice}
           />
           <div className="flex items-center gap-x-4 my-4">
-            <AddToCartButton />
-            <BuyNowButton />
+            <AddToCartButton
+              data={{
+                id: _id,
+                name: name,
+                sku: sku,
+                slug: slug,
+                galleryImage: galleryImage,
+                sellingPrice: price.sellingPrice,
+                regularPrice: price.regularPrice,
+              }}
+            />
+            <BuyNowButton
+              data={{
+                id: _id,
+                name: name,
+                sku: sku,
+                slug: slug,
+                galleryImage: galleryImage,
+                sellingPrice: price.sellingPrice,
+                regularPrice: price.regularPrice,
+              }}
+            />
           </div>
         </div>
       </div>

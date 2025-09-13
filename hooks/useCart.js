@@ -44,6 +44,24 @@ export const useCart = () => {
     mutate(updatedCart, false);
   };
 
+  // ✅ decrement by id
+  const decrementQuantity = (id) => {
+    const updatedCart = (cart || [])
+      .map((item) => {
+        if (item.id === id) {
+          if (item.quantity > 1) {
+            return { ...item, quantity: item.quantity - 1 };
+          }
+          return null; // remove if quantity becomes 0
+        }
+        return item;
+      })
+      .filter(Boolean);
+
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    mutate(updatedCart, false);
+  };
+
   const clearCart = () => {
     localStorage.removeItem("cart");
     mutate([], false);
@@ -54,5 +72,6 @@ export const useCart = () => {
     addToCart,
     removeFromCart,
     clearCart,
+    decrementQuantity,
   };
 };

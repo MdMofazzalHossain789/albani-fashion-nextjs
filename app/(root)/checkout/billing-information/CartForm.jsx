@@ -1,13 +1,21 @@
 "use client";
 import Button from "@/components/shared/Button";
-import { ArrowRight, Cross, X } from "lucide-react";
+import {
+  ArrowRight,
+  Check,
+  Circle,
+  CircleCheck,
+  CircleSmall,
+  Cross,
+  Radio,
+  X,
+} from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import Quantity from "../../[category]/[productSlug]/Quantity";
 import { useCart } from "@/hooks/useCart";
 import { useRouter } from "next/navigation";
-const ProductCart = ({ product, removeFn }) => {
-  const { cart } = useCart();
+const ProductCart = ({ product, removeFn, noQuantity }) => {
+  const { cart, addToCart, removeFromCart, decrementQuantity } = useCart();
   const router = useRouter();
 
   return (
@@ -25,7 +33,52 @@ const ProductCart = ({ product, removeFn }) => {
         <h1 className="shrink-0 line-clamp-1">{product.name}</h1>
         <p className="text-gray-600">Size: M</p>
         <div className="flex items-center gap-x-2">
-          <h1 className="">Qty: {product.quantity}</h1>
+          <div className="flex items-center gap-x-4">
+            <p>Qty:</p>
+            {noQuantity ? (
+              <p>{product.quantity}</p>
+            ) : (
+              <div className="flex items-center rounded-md">
+                <Button
+                  className="rounded-sm border-r-0 rounded-r-none px-4"
+                  variant="outline"
+                  onClick={() => {
+                    if (product.quantity === 1) {
+                      removeFromCart(product.id);
+
+                      router.push("/");
+                      return;
+                    }
+
+                    decrementQuantity(product.id);
+                  }}
+                >
+                  -
+                </Button>
+                <form className="w-1/5">
+                  <input
+                    type="number"
+                    value={product.quantity}
+                    onChange={() => {}}
+                    className="w-full rounded-none border-1 border-black/30 p-2 sm:p-4 text-center selection:bg-black selection:text-white"
+                  />
+                </form>
+                <Button
+                  className="py-2 border-l-0 rounded-l-none rounded-r-sm px-4"
+                  variant="outline"
+                  onClick={() => {
+                    if (product.quantity >= product.stock) return;
+
+                    addToCart({
+                      id: product.id,
+                    });
+                  }}
+                >
+                  +
+                </Button>
+              </div>
+            )}
+          </div>
         </div>
       </div>
       <div className="shrink-0 flex flex-col">
@@ -52,7 +105,7 @@ const ProductCart = ({ product, removeFn }) => {
   );
 };
 
-const CartForm = () => {
+const CartForm = ({ noQuantity }) => {
   const { cart, removeFromCart } = useCart();
   const [total, setTotal] = useState(0);
 
@@ -75,11 +128,12 @@ const CartForm = () => {
       </div>
       <div className="max-w-[700px] mx-auto">
         <div className="flex flex-col gap-y-4 max-w-[700px] mx-auto mt-4">
-          {cart.map((product) => (
+          {cart.map((product, index) => (
             <ProductCart
               key={product.id}
               product={product}
               removeFn={removeFromCart}
+              noQuantity={noQuantity}
             />
           ))}
         </div>
@@ -90,12 +144,18 @@ const CartForm = () => {
             <p className="font-semibold text-black">{total} ৳</p>
           </div>
           <div className="flex items-center justify-between">
+            <div className="flex items-center gap-x-2">
+              <CircleCheck />
+              <p className="text-gray-600 font-medium">Cash on Delivery</p>
+            </div>
+          </div>
+          <div className="flex items-center justify-between">
             <p className="text-gray-600 font-medium">Delivery Charge (+)</p>
             <p className="font-semibold text-black">120 ৳</p>
           </div>
           <div className="w-full h-[2px] rounded-md bg-black mt-4"></div>
           <div className="flex items-center justify-between">
-            <p className="text-gray-600 font-medium">Total</p>
+            <p className="text-gray-600 font-medium">Total Amount</p>
             <p className="font-semibold text-black">{total + 120} ৳</p>
           </div>
         </div>

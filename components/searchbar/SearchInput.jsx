@@ -58,6 +58,7 @@ const SearchInput = () => {
     e.preventDefault();
 
     if (!searchText) {
+      setIsOpen(false);
       return;
     }
     // handleSearch();

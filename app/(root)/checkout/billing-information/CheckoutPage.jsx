@@ -8,7 +8,7 @@ import { ArrowLeft } from "lucide-react";
 
 const CheckoutPage = () => {
   return (
-    <div className="w-full h-full pt-[72px] min-h-[70vh]">
+    <div className="w-full h-full min-h-[70vh] pt-[96px] md:pt-[110px]">
       <div className="bg-slate-100">
         <MainSection className="!mt-0">
           <SitePath
@@ -41,7 +41,7 @@ const CheckoutPage = () => {
             Go to Shopping Cart
           </Button>
           <div className="hidden md:block border-0 md:border-l-2 pl-10 border-black/10">
-            <CartForm />
+            <CartForm noQuantity />
           </div>
         </div>
       </MainSection>

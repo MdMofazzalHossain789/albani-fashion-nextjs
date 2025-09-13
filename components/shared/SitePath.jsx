@@ -12,7 +12,7 @@ const SitePath = ({ paths = [] }) => {
       {paths.map((item, index) => {
         const isLast = paths.length - 1 === index;
 
-        const Component = isLast || !item.link ? "div" : Link;
+        const Component = !item.link ? "div" : Link;
 
         if (index === 0) {
           return (
@@ -39,10 +39,10 @@ const SitePath = ({ paths = [] }) => {
             key={index}
           >
             <Component
-              href={isLast ? undefined : `/${item.link.toLowerCase()}`}
+              href={!item.link ? undefined : `/${item.link.toLowerCase()}`}
               className={cn(
                 "transition duration-300 capitalize",
-                isLast
+                !item.link
                   ? "cursor-default"
                   : "hover:text-black hover:underline cursor-pointer"
               )}

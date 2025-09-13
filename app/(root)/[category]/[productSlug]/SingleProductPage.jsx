@@ -17,7 +17,6 @@ const getData = async (productSlug) => {
     // throw new Error("Failed to fetch data");
     return { data: null };
   }
-
   return res.json();
 };
 
@@ -35,8 +34,8 @@ const SingleProductPage = async ({ category, productSlug }) => {
   pathObj.push({ name: data?.name, link: data?.name });
 
   return (
-    <div className="w-full h-full bg-slate-100">
-      <MainSection className="py-1 md:py-2">
+    <div className="w-full h-full bg-slate-100 pt-[76px] md:pt-[110px]">
+      <MainSection className="!mt-0 py-1 md:py-2">
         <SitePath paths={pathObj} />
       </MainSection>
       <div className="w-full bg-white">

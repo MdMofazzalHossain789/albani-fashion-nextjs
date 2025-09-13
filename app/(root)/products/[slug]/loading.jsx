@@ -2,13 +2,12 @@ import MainSection from "@/components/shared/MainSection";
 import Seperator from "@/components/shared/Seperator";
 import ProductSectionSkeleton from "@/components/shared/skeleton/ProductSectionSkeleton";
 import { HomeIcon, ShoppingBag, ShoppingCart } from "lucide-react";
-import React from "react";
 
 const Loading = () => {
   return (
-    <div className="w-full h-full pt-[76px] md:pt-[110px]">
+    <div className="w-full h-full">
       <div className="w-full bg-slate-100 py-4">
-        <MainSection className={"!mt-0"}>
+        <MainSection>
           <div className="flex items-center gap-x-2 font-medium text-gray-600 animate-pulse px-4">
             <HomeIcon className="w-5 h-5" />
             Home

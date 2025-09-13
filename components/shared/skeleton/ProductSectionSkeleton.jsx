@@ -2,18 +2,20 @@ import { ShoppingBag, ShoppingCart } from "lucide-react";
 import MainSection from "../MainSection";
 import Seperator from "../Seperator";
 
-const ProductSectionSkeleton = ({ title = "Section Title" }) => {
+const ProductSectionSkeleton = ({ noTitle, title = "Section Title" }) => {
   return (
     <div className="px-4 py-2 mt-10">
-      <div className="flex items-center gap-x-4 mb-4">
-        <h1
-          className="text-xl 
-        font-semibold uppercase shrink-0 text-gray-500 animate-pulse"
-        >
-          {title}
-        </h1>
-        <Seperator />
-      </div>
+      {!noTitle && (
+        <div className="flex items-center gap-x-4 mb-4">
+          <h1
+            className="text-xl 
+          font-semibold uppercase shrink-0 text-gray-500 animate-pulse"
+          >
+            {title}
+          </h1>
+          <Seperator />
+        </div>
+      )}
       {/* <ProductCardList products={products} categorySlug={categorySlug} /> */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4">
         {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((product, index) => (
